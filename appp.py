@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 
-model = load_model(r"C:\Users\hp\PycharmProjects\HelloWorld\pythonProject\streams\stream\Ripe_Unripe_classification.keras")
+model = load_model("Ripe_Unripe_classification.keras")
 
 # streamlit app
 
